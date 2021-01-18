@@ -4,11 +4,14 @@
 
 - [Constraints](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters) inform the compiler about the capabilities a type argument must have. Without any constraints, the type argument could be any type. The compiler can only assume the members of System.Object, which is the ultimate base class for any .NET type.
 
-![Constraints type](./Generics/constraint/constraintsTypes.png)
+![Constraints type](./images/constraintsTypes.png)
 
 -   [Generic Classes](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-classes)
+
 -   [Generic Interfaces](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-interfaces)
+
 -   [Generic Methods](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-methods)
+
 -   [Generic Delegates](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-delegates)
 
 - **Example**: Make int nullable 
