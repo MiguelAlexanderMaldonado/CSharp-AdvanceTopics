@@ -5,6 +5,6 @@
 
 * [Generics](./Generics/generics.md)
 
-* [Delegates] (./Delegates/delegates.md)
+* [Delegates](./Delegates/delegates.md)
 
 * 
