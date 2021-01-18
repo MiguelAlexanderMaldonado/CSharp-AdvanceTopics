@@ -3,10 +3,13 @@
 
 ## Topics
 
-### Generics
+* [Generics](generics.md)
+* 
 
-[Generics](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/) introduce the concept of type parameters to .NET, which make it possible to design classes and methods that defer the specification of one or more types until the class or method is declared and instantiated by client code.
+## Delegates
 
-- [Constraints](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters) inform the compiler about the capabilities a type argument must have. Without any constraints, the type argument could be any type. The compiler can only assume the members of System.Object, which is the ultimate base class for any .NET type.
+A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/delegates/using-delegates) is a type that safely encapsulates a method, similar to a function pointer in C and C++. Unlike C function pointers, delegates are object-oriented, type safe, and secure. The type of a delegate is defined by the name of the delegate.
 
-![Constraints type](./Generics/constraint/constraintsTypes.png)
+* [Variance](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-in-delegates): When you assign a method to a delegate, _covariance_ and _contravariance_ provide flexibility for matching a delegate type with a method signature. Covariance permits a method to have return type that is more derived than that defined in the delegate. Contravariance permits a method that has parameter types that are less derived than those in the delegate type.
+
+
