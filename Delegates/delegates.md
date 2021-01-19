@@ -1,4 +1,4 @@
-## Delegates
+# Delegates
 
 A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/delegates/using-delegates) is a type that safely encapsulates a method, similar to a function pointer in C and C++. Unlike C function pointers, delegates are object-oriented, type safe, and secure. The type of a delegate is defined by the name of the delegate.
 

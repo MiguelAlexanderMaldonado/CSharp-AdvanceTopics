@@ -14,7 +14,9 @@
 
 - [Generic Delegates](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-delegates)
 
-- **Example**: Make int nullable 
+## **Example** 
+
+	Make int nullable.
 
 	```
     public class Nullable<T> where T : struct

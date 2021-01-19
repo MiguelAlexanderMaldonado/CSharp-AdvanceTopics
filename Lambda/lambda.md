@@ -1,4 +1,4 @@
-## Lambda expressions
+# Lambda expressions
 
 A [Lambda expression](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/lambda-expressions) is an expression of any of the following two forms:
 
@@ -60,7 +60,7 @@ args => expression
 	}
 	```
 
-*	Books
+* Books
 	```
 	public class Book
     {
