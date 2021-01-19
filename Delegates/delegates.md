@@ -46,6 +46,23 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 	    filterHandler += filters.ApplyContrast;
 	    filterHandler += RemoveRedEyeFilter;
 
-	    processor.Process("photo.jpg", filterHandler);
+		processor.Process("photo.jpg", filterHandler);
+	}
+	
+	static void RemoveRedEyeFilter(Photo photo)
+	{
+		Console.WriteLine("Apply RemoveRedEye");
+		
 	}
 ```
+
+* **Interfaces or Delegates?**
+	
+	Use a delegate when:
+	
+	* An eventing design pattern is used.
+	
+	* The caller doesn't need to acces other properties or methods or interfaces on the object implementing the method.
+
+
+[Back to index](../README.md)
