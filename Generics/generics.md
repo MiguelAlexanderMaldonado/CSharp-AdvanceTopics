@@ -6,17 +6,17 @@
 
 ![Constraints type](./images/constraintsTypes.png)
 
--   [Generic Classes](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-classes)
+- [Generic Classes](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-classes)
 
--   [Generic Interfaces](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-interfaces)
+- [Generic Interfaces](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-interfaces)
 
--   [Generic Methods](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-methods)
+- [Generic Methods](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-methods)
 
--   [Generic Delegates](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-delegates)
+- [Generic Delegates](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/generics/generic-delegates)
 
 - **Example**: Make int nullable 
 
-```
+	```
     public class Nullable<T> where T : struct
     {
         private object _value;
@@ -42,16 +42,16 @@
             return default(T);
         }
     }
-```
+	```
 
-```
+	```
     static void Main(string[] args)
     {
 	    var number = new Nullable<int>();
 	    Console.WriteLine("Has Value ?" + number.HasValue);
 	    Console.WriteLine("Value: " + number.GetValueOrDefault());
     }
-  ```
+	```
  
  
 [Back to index](../README.md)

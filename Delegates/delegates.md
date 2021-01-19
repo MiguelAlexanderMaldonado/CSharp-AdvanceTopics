@@ -6,7 +6,7 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 
 * **Example**: Photo processor.
 
-```
+	```
 	public class PhotoFilters
 	{
 	    public void ApplyBrightness(Photo photo)
@@ -24,8 +24,8 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 	        Console.WriteLine("Resize photo");
 	    }
 	}
-```
-```
+	```
+	```
 	public class PhotoProcessor
 	{
 	    public void Process(string path, Action<Photo> filterHandler)
@@ -35,8 +35,8 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 	        photo.Save();
 	    }
 	}
-```
-```
+	```
+	```
 	static void Main(string[] args)
 	{
 	    var processor = new PhotoProcessor();
@@ -54,7 +54,7 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 		Console.WriteLine("Apply RemoveRedEye");
 		
 	}
-```
+	```
 
 * **Interfaces or Delegates?**
 	
