@@ -23,6 +23,8 @@
 
 * [Mosh Hamedani](https://programmingwithmosh.com/net/csharp-6-features-that-help-you-write-cleaner-code/)
 
+* [Tips Visual Studio 2019](https://www.syncfusion.com/blogs/post/15-tips-to-increase-your-productivity-in-visual-studio-2019.aspx)
+
 ## Blogs
 
 * [ScottGu](https://weblogs.asp.net/scottgu)
