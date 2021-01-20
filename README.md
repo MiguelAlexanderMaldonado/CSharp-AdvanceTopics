@@ -8,3 +8,5 @@
 * [Delegates](./Delegates/delegates.md)
 
 * [Lambda expressions](./Lambda/lambda.md)
+
+* [Extension methods](./Extension/extension.md)
