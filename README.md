@@ -18,3 +18,11 @@
 	* [Null coalescing operator ??](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/operators/null-coalescing-operator)
 	
 * [Asynchronous programming](./Async/async.md)
+
+## Resources
+
+* [Mosh Hamedani](https://programmingwithmosh.com/net/csharp-6-features-that-help-you-write-cleaner-code/)
+
+## Blogs
+
+* [ScottGu](https://weblogs.asp.net/scottgu)
