@@ -11,6 +11,7 @@ The [event](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/ke
 		public string Title {get; set;}
 	}
 	```
+	
 * VideoEventArgs
 	```
 	public class VideoEventArgs: EventArgs
@@ -18,6 +19,7 @@ The [event](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/ke
 		public Video Video {get; set;}
 	}
 	```
+	
 * VideoEncoder
 	```
 	public class VideoEncoder
@@ -44,6 +46,7 @@ The [event](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/ke
 		} 
 	}
 	```
+	
 * MailService
 	```
 	public class MailService
@@ -54,6 +57,7 @@ The [event](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/ke
 		}
 	}
 	```
+	
 * MessageService
 	```
 	public class MessageService
@@ -64,6 +68,7 @@ The [event](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/ke
 		}
 	}
 	```
+	
 * Program
 	```
 	class Program
@@ -85,6 +90,7 @@ The [event](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/ke
 		}
 	}
 	```
+	
 * Output
 	```
 	Encoding Video... Video 1

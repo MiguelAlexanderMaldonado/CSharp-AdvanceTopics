@@ -4,7 +4,17 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 
 * [Variance](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/using-variance-in-delegates): When you assign a method to a delegate, _covariance_ and _contravariance_ provide flexibility for matching a delegate type with a method signature. Covariance permits a method to have return type that is more derived than that defined in the delegate. Contravariance permits a method that has parameter types that are less derived than those in the delegate type.
 
-* **Example**: Photo processor.
+* **Interfaces or Delegates?**
+	
+	Use a delegate when:
+	
+	* An eventing design pattern is used.
+	
+	* The caller doesn't need to acces other properties or methods or interfaces on the object implementing the method.
+
+## Example 
+
+* Photo processor
 
 	```
 	public class PhotoFilters
@@ -55,14 +65,6 @@ A [Delegate](https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/de
 		
 	}
 	```
-
-* **Interfaces or Delegates?**
 	
-	Use a delegate when:
 	
-	* An eventing design pattern is used.
-	
-	* The caller doesn't need to acces other properties or methods or interfaces on the object implementing the method.
-
-
 [Back to index](../README.md)

@@ -4,7 +4,7 @@
 
 ## **Example** 
 
-* Shorten.
+* Shorten
 
 	```
 	namespace ExtensionMethods

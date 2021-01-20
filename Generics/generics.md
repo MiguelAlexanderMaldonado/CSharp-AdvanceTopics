@@ -17,7 +17,7 @@
 
 ## **Example** 
 
-* Make int nullable.
+* Make int nullable
 
 	```
 	public class Nullable<T> where T : struct
